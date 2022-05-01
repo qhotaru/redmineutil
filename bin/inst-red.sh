@@ -4,6 +4,17 @@
 #
 #
 
+# how to use this.
+#
+# 1. inst-red.sh pre
+# 2. EDIT configuration.yml
+# 3. inst-red.sh post
+# 4. apachectl configutest
+# 5. apachectl restart
+# 6. wget https://localhost/redmine
+# 7. That's done.
+#
+
 user=redmine
 host=localhost
 pw=redmine!pw1
